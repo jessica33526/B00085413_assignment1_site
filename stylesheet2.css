@@ -1,0 +1,205 @@
+@charset "UTF-8";
+/* CSS Document */
+#container {
+	width: 1270px;
+	height: 800px;
+	margin: auto;
+	position:relative;
+}
+
+nav {
+	height:8%;
+	width: 100%;
+	margin: auto;
+	z-index:1;
+	background-color:#B9D7D9;
+	border-top-left-radius:0.5em;
+	border-top-right-radius: 0.5em;
+	border-bottom-left-radius:0.5em;
+	border-bottom-right-radius:0.5em;
+	overflow:hidden;
+}
+
+nav li{
+	display:inline-block;
+	text-decoration: none;
+	color: #ffffff;
+	font-size:1.5em;
+	font-family: Verdana;
+	padding-top: 0.1em;
+	padding-bottom:0.1em;
+	padding-right:0.6em;
+	padding-left:0.6em;
+	list-style-type:none;
+
+}
+
+nav a{
+	color: white;
+	text-decoration:none;
+}
+	
+
+nav a:hover{
+	color: #808080;
+	text-decoration:none;
+	
+}
+
+nav a:visited{
+	color: #808080;
+}
+
+.main{
+	width:100%;
+	margin:auto;
+}
+
+.aside{
+	width:33%;
+	height:32em;
+	background-color:  #cccccc;
+	float:left;
+	clear:right;
+	border-top-left-radius:0.5em;
+}
+
+.aside img{
+	width:330px; 
+	height:390px;
+	border-radius:50%;
+	border: 3px solid black;
+	margin-top: 3em;
+	margin-left:2em;
+	margin-right:2em;
+}
+
+.section{
+	width:66%;
+	height:32em;
+	background-color:#adebad;
+	float:right;
+	border-top-right-radius: 0.5em;
+	
+	
+}
+
+.section h2{
+	font-family: Verdana, Geneva, sans-serif;
+	padding-left: 1.3em;
+}
+.section p{
+	font-family: Verdana, Geneva, sans-serif;
+	padding-left: 2em;
+	padding-right:3em;
+}
+	
+
+
+
+#footer{
+	height:25%;
+	width:100%;
+	margin:auto;
+	background-color:#d9b38c;
+	padding-left:0.5em;
+	padding-right:0.5em;
+	border-top-left-radius: 0.5em;
+	border-top-right-radius: 0.5em;
+	border-bottom-left-radius:0.5em;
+	border-bottom-right-radius:0.5em;
+	position:relative;
+	clear:both;
+
+}
+
+#footer p{
+	font-size:85%;
+	font-family:"Comic Sans MS", cursive;
+	color:#f2f2f2;
+	margin-left:30em;
+	padding-top:0.5em;
+	
+}
+
+
+.contact{
+	padding: 0.5%;
+	float:right;
+	margin-right: 0.5%;
+}
+
+.contact img{
+	padding: 0.6em;
+}
+
+.aside1{
+	width:15%;
+	height:32em;
+	background-color: #cccccc;
+	overflow:hidden;
+	float:left;
+	clear:right;
+	margin-left:8%;
+	border-top-left-radius: 0.5em;
+}
+.aside1 h2{
+	font-family:"Comic Sans MS", cursive;
+	margin-left:1.2em;
+}
+
+.aside1 h3{
+	font-family:"Comic Sans MS", cursive;
+	margin-left:1.5em;
+}
+
+
+.section2{
+	width:42%;
+	height:32em;
+	background-color:#ffcc99;
+	overflow:hidden;
+	float:left;
+	margin-right:6%;
+	margin-left:6%;
+	
+	
+}
+
+.section2 img{
+	padding-top:2em;
+	padding-left: 8.5em;
+	padding-right:7em;
+	
+
+}
+
+.aside2{
+	width:15%;
+	height:32em;
+	background-color: #cccccc;
+	overflow:hidden;
+	float:right;
+	margin-right:8%;
+	border-top-right-radius: 0.5em;
+	
+}
+.aside2 p{
+	font-family:"Comic Sans MS", cursive;
+	margin-left:1em;
+	margin-right:1em;
+}
+
+
+
+
+
+
+
+	
+
+
+	
+
+
+
